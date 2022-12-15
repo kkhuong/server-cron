@@ -1,2 +1,2 @@
 cd /root/notebooks/
-nohup jupyter notebook --no-browser --allow-root --ip=0.0.0.0 --port=8888 &
+nohup jupyter lab --no-browser --allow-root --ip=0.0.0.0 --port=8888 &
