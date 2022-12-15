@@ -1,2 +1,2 @@
-cd /root/notebooks
-/root/notebooks/auto_backup.sh
+cd /home/kkhuong/notebooks
+/home/kkhuong/notebooks/auto_backup.sh
