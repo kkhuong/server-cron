@@ -5,10 +5,10 @@
 
 # Current Cron Tab File
 ```
-*/5 * * * * /root/cron/backup_notebooks.sh >/dev/null 2>&1
-*/5 * * * * /root/cron/backup_django.sh >/dev/null 2>&1
-@reboot /root/cron/start_notebooks.sh >/dev/null 2>&1
-@reboot /root/cron/start_django.sh >/dev/null 2>&1
+*/5 * * * * /home/kkhuong/cron/backup_notebooks.sh >/dev/null 2>&1
+*/5 * * * * /home/kkhuong/cron/backup_django.sh >/dev/null 2>&1
+@reboot /home/kkhuong/cron/start_notebooks.sh >/dev/null 2>&1
+@reboot /home/kkhuong/cron/start_django.sh >/dev/null 2>&1
 ```
 
 Run `crontab -e` to edit the crontab file.
